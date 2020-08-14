@@ -18,10 +18,11 @@ const Home = () => {
 
     const algo = (str: String) => {
         const wordCount: number = str.trim().split(/\s+/).length
+        const sentenceCount: number = str.split(". ").length;
         if (str.length == 0) {
             return 0
         } else {
-            return wordCount
+            return sentenceCount
         }
     }
 
