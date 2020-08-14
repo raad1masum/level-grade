@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/level-grade/static/js/main.e61a8b72.chunk.js",
+    "main.js.map": "/level-grade/static/js/main.e61a8b72.chunk.js.map",
+    "runtime-main.js": "/level-grade/static/js/runtime-main.e1aae50b.js",
+    "runtime-main.js.map": "/level-grade/static/js/runtime-main.e1aae50b.js.map",
+    "static/js/2.01ea4d93.chunk.js": "/level-grade/static/js/2.01ea4d93.chunk.js",
+    "static/js/2.01ea4d93.chunk.js.map": "/level-grade/static/js/2.01ea4d93.chunk.js.map",
+    "index.html": "/level-grade/index.html",
+    "precache-manifest.09f36fba30152a31fbc588040b0ebff3.js": "/level-grade/precache-manifest.09f36fba30152a31fbc588040b0ebff3.js",
+    "service-worker.js": "/level-grade/service-worker.js",
+    "static/js/2.01ea4d93.chunk.js.LICENSE.txt": "/level-grade/static/js/2.01ea4d93.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1aae50b.js",
+    "static/js/2.01ea4d93.chunk.js",
+    "static/js/main.e61a8b72.chunk.js"
+  ]
+}
