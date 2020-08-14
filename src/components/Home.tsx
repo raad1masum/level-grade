@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import syllable from "syllable"
 
 // create an interface for your state
 interface info {
@@ -17,17 +18,22 @@ const Home = () => {
     }
 
     const fleschkincaid = (str: String) => {
-        if (str.length == 0) {
+        if (str.length === 0) {
             return 0
         } else {
-            const words: String[] = str.trim().split(/\s+/)
-            const wordCount: number = words.length
-            const sentenceCount: number = str.split(". ").length
+            let words: String[] = str.trim().split(/\s+/)
+            let wordCount: number = words.length
+            let sentenceCount: number = str.split(". ").length
+            let syllableCount: number = 0
+
             const ASL: number = wordCount / sentenceCount
 
-            for (let i of words) {
-                console.log(i)
+            for (let word in words) {
+                word = word.toLowerCase()
+                syllableCount += syllable(words[word].toString())
             }
+
+            return syllableCount
         }
     }
 
