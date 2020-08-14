@@ -20,9 +20,14 @@ const Home = () => {
         if (str.length == 0) {
             return 0
         } else {
-            const wordCount: number = str.trim().split(/\s+/).length
+            const words: String[] = str.trim().split(/\s+/)
+            const wordCount: number = words.length
             const sentenceCount: number = str.split(". ").length
             const ASL: number = wordCount / sentenceCount
+
+            for (let i of words) {
+                console.log(i)
+            }
         }
     }
 
