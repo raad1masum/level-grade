@@ -34,7 +34,13 @@ const Home = () => {
             const ASL: number = wordCount / sentenceCount
             const ASW: number = syllableCount / wordCount
 
-            return ASW
+            const sentenceWeight = 0.39
+            const wordWeight = 11.8
+            const adjustment = 15.59
+
+            const grade = (sentenceWeight * ASL) + (wordWeight * ASW) - adjustment
+
+            return grade
         }
     }
 
