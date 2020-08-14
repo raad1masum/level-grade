@@ -26,14 +26,15 @@ const Home = () => {
             let sentenceCount: number = str.split(". ").length
             let syllableCount: number = 0
 
-            const ASL: number = wordCount / sentenceCount
-
             for (let word in words) {
                 word = word.toLowerCase()
                 syllableCount += syllable(words[word].toString())
             }
 
-            return syllableCount
+            const ASL: number = wordCount / sentenceCount
+            const ASW: number = syllableCount / wordCount
+
+            return ASW
         }
     }
 
