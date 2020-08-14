@@ -16,13 +16,13 @@ const Home = () => {
         setInfoState({ text: newValue })
     }
 
-    const algo = (str: String) => {
+    const fleschkincaid = (str: String) => {
         if (str.length == 0) {
             return 0
         } else {
-        const wordCount: number = str.trim().split(/\s+/).length
-        const sentenceCount: number = str.split(". ").length
-        const ASL: number = wordCount / sentenceCount
+            const wordCount: number = str.trim().split(/\s+/).length
+            const sentenceCount: number = str.split(". ").length
+            const ASL: number = wordCount / sentenceCount
         }
     }
 
@@ -30,7 +30,7 @@ const Home = () => {
         <>
             <h1>Level Grade</h1>
             <textarea name="name" onChange={onchange}></textarea>
-            <p>{algo(infoState.text)}</p>
+            <p>{fleschkincaid(infoState.text)}</p>
         </>
     )
 }
