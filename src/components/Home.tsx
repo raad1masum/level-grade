@@ -40,7 +40,7 @@ const Home = () => {
 
             const grade = (sentenceWeight * ASL) + (wordWeight * ASW) - adjustment
 
-            return grade
+            return grade.toFixed(2)
         }
     }
 
