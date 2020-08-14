@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "299f5c16bb5b2b3e5a967a4cad5c1821",
+    "revision": "bcd774ac6d5d0de91aa78b74ff2cf834",
     "url": "/level-grade/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/level-grade/static/js/2.01ea4d93.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58753e5e26dbfd0c8ad2",
-    "url": "/level-grade/static/js/main.e61a8b72.chunk.js"
+    "revision": "2c76aa356c0b2df1a380",
+    "url": "/level-grade/static/js/main.4ca317fd.chunk.js"
   },
   {
     "revision": "67d52489eaffde754fd8",
