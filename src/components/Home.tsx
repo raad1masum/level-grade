@@ -17,12 +17,12 @@ const Home = () => {
     }
 
     const algo = (str: String) => {
-        const wordCount: number = str.trim().split(/\s+/).length
-        const sentenceCount: number = str.split(". ").length;
         if (str.length == 0) {
             return 0
         } else {
-            return sentenceCount
+        const wordCount: number = str.trim().split(/\s+/).length
+        const sentenceCount: number = str.split(". ").length
+        const ASL: number = wordCount / sentenceCount
         }
     }
 
@@ -34,5 +34,4 @@ const Home = () => {
         </>
     )
 }
-
 export default Home;
