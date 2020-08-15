@@ -51,9 +51,11 @@ const Home = () => {
     return (
         <>
             <div className={"container"}>
-                <h1>Level Grade</h1>
-                <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
-                <p style={fleschkincaid(infoState.text)==="Invalid Text" ? {color: "red"}:{color:"green"}}>{fleschkincaid(infoState.text)}</p>
+                <div className={"top"}>
+                    <h1>Level Grade</h1>
+                    <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
+                    <p style={fleschkincaid(infoState.text)==="Invalid Text" ? {color: "red"}:{color:"green"}}>{fleschkincaid(infoState.text)}</p>
+                </div>
             </div>
         </>
     )
