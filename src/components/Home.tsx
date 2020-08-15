@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import syllable from "syllable"
 
-// create an interface for your state
 interface info {
     text: String
 }
 
 const Home = () => {
-    // create a useState hook for a state variable
     const [infoState, setInfoState] = useState<info>({
         text: "",
     })
@@ -51,7 +49,7 @@ const Home = () => {
     return (
         <>
             <h1>Level Grade</h1>
-            <textarea name="name" onChange={onchange}></textarea>
+            <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
             <p>{fleschkincaid(infoState.text)}</p>
         </>
     )
