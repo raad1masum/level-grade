@@ -19,7 +19,7 @@ const Home = () => {
 
     const fleschkincaid = (str: String) => {
         if (str.length === 0) {
-            return 0
+            return "Enter Text to Calculate Grade Level"
         } else {
             let words: String[] = str.trim().split(/\s+/)
             let wordCount: number = words.length
@@ -41,9 +41,9 @@ const Home = () => {
             const grade = (sentenceWeight * ASL) + (wordWeight * ASW) - adjustment
 
             if (grade < 0) {
-                return 0
+                return "Invalid Text"
             } else {
-                return grade.toFixed(2)
+                return "Grade Level: " + grade.toFixed(2)
             }
         }
     }
@@ -56,4 +56,5 @@ const Home = () => {
         </>
     )
 }
+
 export default Home;
