@@ -21,6 +21,7 @@ body {
 }
 
 .top h1 {
+    margin-bottom: 0;
     background: linear-gradient(270deg, #ff6188, #fc9867, #ffd866, #00d787, #78dce8, #ab9df2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,6 +39,11 @@ body {
     outline: none;
     border-radius: 20px;
     padding: 1rem;
+}
+
+.top p {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
 }
 
 @-webkit-keyframes gradientAnimation {
