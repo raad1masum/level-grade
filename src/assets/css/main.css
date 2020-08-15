@@ -31,6 +31,11 @@ body {
     animation: gradientAnimation 5s ease infinite;
 }
 
+.top textarea {
+    width: 500px;
+    height: 200px;
+}
+
 @-webkit-keyframes gradientAnimation {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
