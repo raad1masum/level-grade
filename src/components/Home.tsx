@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import syllable from "syllable"
 
+import '../assets/css/main.css'
+
 interface info {
     text: String
 }
