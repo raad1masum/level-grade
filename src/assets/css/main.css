@@ -35,6 +35,9 @@ body {
     width: 500px;
     height: 200px;
     resize: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 @-webkit-keyframes gradientAnimation {
