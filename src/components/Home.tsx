@@ -50,9 +50,11 @@ const Home = () => {
 
     return (
         <>
-            <h1>Level Grade</h1>
-            <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
-            <p>{fleschkincaid(infoState.text)}</p>
+            <div className={"container"}>
+                <h1>Level Grade</h1>
+                <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
+                <p>{fleschkincaid(infoState.text)}</p>
+            </div>
         </>
     )
 }

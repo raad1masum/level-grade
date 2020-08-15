@@ -8,3 +8,9 @@ body {
     color: white;
     scroll-behavior: smooth;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
