@@ -36,7 +36,7 @@ const Home = () => {
 
             const sentenceWeight = 0.39
             const wordWeight = 11.8
-            const adjustment = 15.59
+            const adjustment = 21.59
 
             const grade = (sentenceWeight * ASL) + (wordWeight * ASW) - adjustment
 
