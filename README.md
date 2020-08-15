@@ -1,5 +1,5 @@
 # level-grade
-> Automatically determine the grade level of English texts using the [Flesch-Kincaid](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests) grade level formula.
+> 📘 Automatically determine the grade level of English texts using the [Flesch-Kincaid](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests) grade level formula.
 
 Try it out [here](https://level-grade.raadwan.com/).
 
