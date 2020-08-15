@@ -42,6 +42,8 @@ const Home = () => {
 
             if (grade < 0) {
                 return "Invalid Text"
+            } else if (grade > 20) {
+                return "Grade Level: 20"
             } else {
                 return "Grade Level: " + grade.toFixed(2)
             }
