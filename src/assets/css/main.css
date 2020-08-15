@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+html,
+body {
+    margin: 0;
+    background-color: #2b292e;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: white;
+    scroll-behavior: smooth;
+}
