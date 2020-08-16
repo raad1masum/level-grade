@@ -11,8 +11,7 @@ The Flesch-Kincaid reading grade level formula is an equation used to determine 
 ```sh
 git clone https://github.com/raad1masum/level-grade.git
 cd level-grade
-npm i
-npm start
+yarn install --frozen-lockfile && yarn start
 ```
 
 ## 👨‍💻 Contact
