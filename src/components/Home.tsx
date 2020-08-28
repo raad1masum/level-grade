@@ -21,15 +21,15 @@ const Home = () => {
         if (str.length === 0) {
             return "Enter Text to Calculate Grade Level"
         } else {
-            let words: String[] = str.trim().split(/\s+/)
-            let wordCount: number = words.length
-            let sentenceCount: number = str.split(". ").length
+            const words: Array<String> = str.trim().split(/\s+/)
+            const wordCount: number = words.length
+            const sentenceCount: number = str.split(". ").length
             let syllableCount: number = 0
 
-            for (let word in words) {
+            words.forEach((word) => {
                 word = word.toLowerCase()
                 syllableCount += syllable(words[word].toString())
-            }
+            })
 
             const ASL: number = wordCount / sentenceCount
             const ASW: number = syllableCount / wordCount
@@ -51,15 +51,13 @@ const Home = () => {
     }
 
     return (
-        <>
-            <div className={"container"}>
-                <div className={"top"}>
-                    <h1>Level Grade</h1>
-                    <p style={fleschkincaid(infoState.text)==="Invalid Text" ? {color: "#ff6188"}:{color:"#00d787"}}>{fleschkincaid(infoState.text)}</p>
-                    <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
-                </div>
+        <div className="container">
+            <div className="top">
+                <h1>Level Grade</h1>
+                <p style={fleschkincaid(infoState.text) === "Invalid Text" ? {color: "#ff6188"} : {color:"#00d787"}}>{fleschkincaid(infoState.text)}</p>
+                <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
             </div>
-        </>
+        </div>
     )
 }
 
