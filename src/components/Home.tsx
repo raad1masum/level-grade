@@ -43,7 +43,7 @@ const Home = () => {
             if (grade < 0) {
                 return "Invalid Text"
             } else if (grade > 20) {
-                return "Grade Level: 20"
+                return "Invalid Text"
             } else {
                 return "Grade Level: " + grade.toFixed(2)
             }
@@ -55,7 +55,7 @@ const Home = () => {
             <div className={"container"}>
                 <div className={"top"}>
                     <h1>Level Grade</h1>
-                    <p style={fleschkincaid(infoState.text)==="Invalid Text" ? {color: "#fd3c63"}:{color:"#3fc74c"}}>{fleschkincaid(infoState.text)}</p>
+                    <p style={fleschkincaid(infoState.text)==="Invalid Text" ? {color: "#fd3c63"}:{color:"#ffffff"}}>{fleschkincaid(infoState.text)}</p>
                     <textarea placeholder="Enter Text to Calculate Grade Level" onChange={onchange}></textarea>
                 </div>
             </div>
