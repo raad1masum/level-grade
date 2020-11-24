@@ -5,7 +5,7 @@ Try it out [here](https://level-grade.raadwan.com/).
 
 ## 🧮 [Flesch-Kincaid Formula](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests)
 
-The Flesch-Kincaid reading grade level formula is an equation used to determine the amount of years of American schooling needed to understand a specific piece of text. I used the formula in this project in order to determine the relative grade level of user inputed text.
+The Flesch-Kincaid reading grade level formula is an equation used to determine the amount of years of American schooling needed to understand a given piece of text. I used the formula in this project in order to determine the relative grade level of user inputed text.
 
 ## 🚀 Local Development
 ```sh
