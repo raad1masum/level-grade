@@ -141,7 +141,8 @@ footer a {
 }
 
 ::selection {
-  background-color: #f8f8f2;
+  background-color: #9867f0;
+  color: #f8f8f2;
 }
 
 ::-webkit-scrollbar {
