@@ -24,6 +24,7 @@ footer a {
     #3bf0e4,
     #3fc74c
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 1200% 1200%;
@@ -56,6 +57,7 @@ footer a {
     #3bf0e4,
     #3fc74c
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 1200% 1200%;
