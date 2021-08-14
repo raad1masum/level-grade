@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
 
+:root {
+  --background: #000814;
+  --background-alternate: #0b1625;
+  --background-dark: #09111d;
+  --foreground: #f8f8f2;
+  --accent: #75715e;
+  --red: #ff0040;
+  --orange: #ff5400;
+  --yellow: #ffbe00;
+  --green: #00ff1b;
+  --blue: #0086f9;
+  --purple: #7c00ff;
+}
+
 html,
 body {
   margin: 0;
