@@ -30,7 +30,7 @@ footer {
 
 footer a {
   background: linear-gradient(
-    270deg,
+    90deg,
     var(--red),
     var(--orange),
     var(--yellow),
@@ -63,7 +63,7 @@ footer a {
   font-size: 3rem;
   margin-bottom: 0;
   background: linear-gradient(
-    270deg,
+    90deg,
     var(--red),
     var(--orange),
     var(--yellow),
