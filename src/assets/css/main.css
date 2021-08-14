@@ -17,7 +17,7 @@
 html,
 body {
   margin: 0;
-  background-color: #000814;
+  background-color: var(--background);
   font-family: "Baloo Tamma 2", cursive;
   color: white;
   scroll-behavior: smooth;
@@ -31,12 +31,12 @@ footer {
 footer a {
   background: linear-gradient(
     270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -64,12 +64,12 @@ footer a {
   margin-bottom: 0;
   background: linear-gradient(
     270deg,
-    #fd3c63,
-    #ff7270,
-    #ea5dad,
-    #9867f0,
-    #3bf0e4,
-    #3fc74c
+    var(--red),
+    var(--orange),
+    var(--yellow),
+    var(--green),
+    var(--blue),
+    var(--purple)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -155,8 +155,8 @@ footer a {
 }
 
 ::selection {
-  background-color: #9867f0;
-  color: #f8f8f2;
+  background-color: var(--purple);
+  color: white;
 }
 
 ::-webkit-scrollbar {
